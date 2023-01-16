@@ -1,4 +1,4 @@
-import User from "./User/User";
+import {User} from "./User/User";
 
 import user from './Data/user.json';
 
