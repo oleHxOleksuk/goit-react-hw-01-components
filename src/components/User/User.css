@@ -31,20 +31,20 @@
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 15px;
-    color: #524a4d;
+    color: #030202;
   }
   
   .tag {
     font-weight: 500;
     font-size: 20px;
-    color: #524a4d;
-    margin-bottom: 15px;
+    color: #a4622073;
+    margin-bottom: 10px;
   }
   
   .location {
     font-weight: 700;
     font-size: 20px;
-    color: #524a4d;
+    color: #a4622073;
     margin-bottom: 15px;
   }
 
@@ -73,7 +73,7 @@
     margin-right: 3px;
     font-weight: 700;
     font-size: 20px;
-    color: #524a4d8b;
+    color: #d756408b;
     margin-bottom: 5px;
   }
   
