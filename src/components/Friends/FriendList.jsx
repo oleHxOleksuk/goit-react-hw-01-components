@@ -1,4 +1,4 @@
-import css from './friendStyle.module.css';
+import css from './FriendStyle.module.css';
 import PropTypes from 'prop-types';
 
 export const FriendList = ({friends}) =>{
