@@ -31,3 +31,6 @@ table {
   table tr:not(:last-child) {
     margin-bottom: 5px;
   }
+  .tipe{
+    background-color: aqua;
+  }

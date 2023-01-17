@@ -1,7 +1,7 @@
 import User from "./User/User";
 import {Statistics} from "./Statistics/Statistics";
 import {FriendList} from "./Friends/FriendList";
-import {TransactionStory, Transitions } from "./Transactions/Transactions";
+import {TransactionStory} from "./Transactions/Transactions";
 
 import user from './Data/user.json';
 import data from './Data/data.json';

@@ -5,11 +5,11 @@ import PropTypes from 'prop-types';
 const createColor = () => {
     const color =
       'rgba(' +
-      Math.round(Math.random() * 100) +
+      Math.round(Math.random() * 300) +
       ',' +
-      Math.round(Math.random() * 100) +
+      Math.round(Math.random() * 300) +
       ',' +
-      Math.round(Math.random() * 100) +
+      Math.round(Math.random() * 300) +
       ',' +
       0.2 +
       ')';
@@ -21,7 +21,7 @@ const createColor = () => {
     return (
       <table>
         <thead>
-          <tr style={{ backgroundColor: createColor() }}>
+          <tr className={css.tipe}>
             <th>Type</th>
             <th>Amount</th>
             <th>Currency</th>
