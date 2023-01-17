@@ -2,23 +2,23 @@ import css from './Statistics.module.css';
 import propTypes from 'prop-types';
 
 const createColor = () => {
-    const color =
-      'rgba(' +
-      Math.round(Math.random() * 255) +
-      ',' +
-      Math.round(Math.random() * 255) +
-      ',' +
-      Math.round(Math.random() * 255) +
-      ',' +
-      0.5 +
-      ')';
-  
-    return color;
-  };
+  const color =
+    'rgba(' +
+    Math.round(Math.random() * 255) +
+    ',' +
+    Math.round(Math.random() * 255) +
+    ',' +
+    Math.round(Math.random() * 255) +
+    ',' +
+    0.5 +
+    ')';
 
-export const Statistics = ({title, stats})=>{
-    return (
-        <section className={css.statistics}>
+  return color;
+};
+
+export const Statistics = ({ title, stats }) => {
+  return (
+    <section className={css.statistics}>
       {title && <h2 className={css.title}>{title}</h2>}
 
       <ul className={css.stats__list}>
@@ -36,7 +36,7 @@ export const Statistics = ({title, stats})=>{
         })}
       </ul>
     </section>
-    );
+  );
 };
 
 Statistics.propTypes = {
